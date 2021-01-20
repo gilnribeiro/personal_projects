@@ -1,0 +1,157 @@
+Column1,Overall rank,Country,Score, Region,iso_a3,democracy index,regime
+153,154,Afghanistan,3.2030000000000003,Asia,AFG,2.85,1
+106,107,Albania,4.718999999999999,Europe,ALB,5.89,2
+87,88,Algeria,5.211,Africa,DZA,4.01,2
+46,47,Argentina,6.086,South America,ARG,7.03,3
+115,116,Armenia,4.559,Asia,ARM,5.54,2
+10,11,Australia,7.228,Oceania,AUS,9.09,4
+9,10,Austria,7.246,Europe,AUT,8.29,4
+89,90,Azerbaijan,5.207999999999999,Asia,AZE,2.75,1
+36,37,Bahrain,6.199,Asia,BHR,2.55,1
+124,125,Bangladesh,4.456,Asia,BGD,5.88,2
+80,81,Belarus,5.3229999999999995,Europe,BLR,2.49,1
+17,18,Belgium,6.922999999999999,Europe,BEL,7.64,3
+101,102,Benin,4.883,Africa,BEN,5.09,2
+94,95,Bhutan,5.082,Asia,BTN,5.3,2
+60,61,Bolivia,5.779,South America,BOL,4.84,2
+77,78,Bosnia and Herz,5.386,Europe,BIH,4.86,2
+147,148,Botswana,3.488,Africa,BWA,7.81,3
+31,32,Brazil,6.3,South America,BRA,6.86,3
+96,97,Bulgaria,5.011,Europe,BGR,7.03,3
+114,115,Burkina Faso,4.587,Africa,BFA,4.04,2
+144,145,Burundi,3.775,Africa,BDI,2.15,1
+98,99,CÃ´te d'Ivoire,4.944,Africa,CIV,4.05,2
+108,109,Cambodia,4.7,Asia,KHM,3.53,1
+95,96,Cameroon,5.044,Africa,CMR,2.85,1
+8,9,Canada,7.278,North America,CAN,9.22,4
+154,155,Central African Rep.,3.083,Africa,CAF,1.32,1
+131,132,Chad,4.35,Africa,TCD,1.61,1
+25,26,Chile,6.444,South America,CHL,8.08,4
+92,93,China,5.191,Asia,CHN,2.26,1
+42,43,Colombia,6.125,South America,COL,7.14,3
+141,142,Comoros,3.9730000000000003,Africa,COM,3.15,1
+102,103,Congo,4.812,Africa,COG,3.11,1
+11,12,Costa Rica,7.167000000000001,North America,CRI,8.13,4
+74,75,Croatia,5.432,Europe,HRV,6.57,3
+48,49,Cyprus,6.046,Asia,CYP,7.59,3
+19,20,Czech Republic,6.852,Europe,CZE,7.69,3
+126,127,Dem. Rep. Congo,4.418,Africa,COD,1.14,1
+1,2,Denmark,7.6,Europe,DNK,9.22,4
+76,77,Dominican Republic,5.425,North America,DOM,6.54,3
+49,50,Ecuador,6.028,South America,ECU,6.33,3
+136,137,Egypt,4.166,Africa,EGY,3.06,1
+34,35,El Salvador,6.252999999999999,North America, SLV,6.15,3
+54,55,Estonia,5.893,Europe,EST,7.9,3
+133,134,Ethiopia,4.2860000000000005,Africa,ETH,3.44,1
+0,1,Finland,7.769,Europe,FIN,9.26,4
+23,24,France,6.5920000000000005,Europe,FRA,8.13,4
+103,104,Gabon,4.7989999999999995,Africa,GAB,3.61,1
+119,120,Gambia,4.516,Africa,GMB,4.33,2
+118,119,Georgia,4.519,Asia,GEO,5.42,2
+16,17,Germany,6.985,Europe,DEU,8.68,4
+97,98,Ghana,4.996,Africa,GHA,6.63,3
+81,82,Greece,5.287000000000001,Europe,GRC,7.43,3
+26,27,Guatemala,6.436,North America,GTM,5.26,2
+117,118,Guinea,4.534,Africa,GIN,3.14,1
+146,147,Haiti,3.597,North America,HTI,4.57,2
+58,59,Honduras,5.86,North America,HND,5.42,2
+75,76,Hong Kong,5.43,Asia,HKG,6.02,3
+61,62,Hungary,5.757999999999999,Europe,HUN,6.63,3
+3,4,Iceland,7.494,Europe, ISL,9.58,4
+139,140,India,4.015,Asia,IND,6.9,3
+91,92,Indonesia,5.192,Asia,IDN,6.48,3
+116,117,Iran,4.548,Asia,IRN,2.38,1
+125,126,Iraq,4.437,Asia,IRQ,3.74,1
+15,16,Ireland,7.021,Europe,IRL,9.24,4
+12,13,Israel,7.138999999999999,Asia,ISR,7.86,3
+35,36,Italy,6.223,Europe,ITA,7.52,3
+55,56,Jamaica,5.89,North America,JAM,6.96,3
+57,58,Japan,5.886,Asia,JPN,7.99,3
+100,101,Jordan,4.906000000000001,Asia,JOR,3.93,1
+59,60,Kazakhstan,5.809,Asia,KAZ,2.94,1
+120,121,Kenya,4.5089999999999995,Africa,KEN,5.18,2
+45,46,Kosovo,6.1,Europe,KSV,5,2
+50,51,Kuwait,6.021,Asia,KWT,3.93,1
+85,86,Kyrgyzstan,5.261,Asia,KGZ,4.89,2
+104,105,Laos,4.796,Asia,LAO,2.14,1
+52,53,Latvia,5.94,Europe,LVA,7.49,3
+90,91,Lebanon,5.197,Asia,LBN,4.36,2
+143,144,Lesotho,3.802,Africa,LSO,6.55,3
+140,141,Liberia,3.975,Africa,LBR,5.45,2
+71,72,Libya,5.525,Africa,LBY,2.02,1
+41,42,Lithuania,6.149,Europe,LTU,7.5,3
+13,14,Luxembourg,7.09,Europe,LUX,8.81,4
+83,84,Macedonia,5.274,Europe,MKD,5,2
+142,143,Madagascar,3.9330000000000003,Africa,MDG,5.65,2
+149,150,Malawi,3.41,Africa,MWI,5.5,2
+79,80,Malaysia,5.3389999999999995,Asia,MYS,7.17,3
+127,128,Mali,4.39,Africa,MLI,4.92,2
+21,22,Malta,6.726,Europe,MLT,7.95,3
+121,122,Mauritania,4.49,Africa,MRT,3.92,1
+56,57,Mauritius,5.888,Africa,MUS,8.22,4
+22,23,Mexico,6.595,North America,MEX,6.09,3
+70,71,Moldova,5.529,Europe,MDA,5.75,2
+82,83,Mongolia,5.285,Asia,MNG,6.5,3
+72,73,Montenegro,5.523,Europe,MNE,5.66,2
+88,89,Morocco,5.207999999999999,Africa,MAR,5.1,2
+122,123,Mozambique,4.466,Africa,MOZ,3.65,1
+130,131,Myanmar,4.36,Asia,MMR,3.55,1
+112,113,Namibia,4.638999999999999,Africa,NAM,6.44,3
+99,100,Nepal,4.913,Asia,NPL,5.28,2
+4,5,Netherlands,7.4879999999999995,Europe,NLD,9.01,4
+7,8,New Zealand,7.307,Oceania,NZL,9.26,4
+44,45,Nicaragua,6.105,North America,NIC,3.55,1
+113,114,Niger,4.628,Africa,NER,3.3,1
+84,85,Nigeria,5.265,Africa,NGA,4.12,2
+63,64,Northern Cyprus,5.718,Asia,CYP,6,2
+2,3,Norway,7.553999999999999,Europe,NOR,9.87,4
+66,67,Pakistan,5.653,Asia,PAK,4.24,2
+109,110,Palestine,4.696000000000001,Asia,PSE,3.89,1
+30,31,Panama,6.321000000000001,North America,PAN,7.05,3
+62,63,Paraguay,5.742999999999999,South America,PRY,6.24,3
+64,65,Peru,5.697,South America,PER,6.6,3
+68,69,Philippines,5.631,Asia,PHL,6.64,3
+39,40,Poland,6.182,Europe,POL,6.62,3
+65,66,Portugal,5.693,Europe,PRT,8.03,4
+28,29,Qatar,6.374,Asia,QAT,3.19,1
+47,48,Romania,6.07,Europe,ROU,6.49,3
+67,68,Russia,5.648,Asia,RUS,3.12,1
+151,152,Rwanda,3.3339999999999996,Africa,RWA,3.16,1
+155,156,S. Sudan,2.853,Africa,SSD,3,1
+27,28,Saudi Arabia,6.375,Asia,SAU,1.94,1
+110,111,Senegal,4.681,Africa,SEN,5.8,2
+69,70,Serbia,5.603,Europe,SRB,6.41,3
+128,129,Sierra Leone,4.374,Africa,SLE,4.86,2
+33,34,Singapore,6.2620000000000005,Asia,SGP,6.02,3
+37,38,Slovakia,6.1979999999999995,Europe,SVK,7.17,3
+43,44,Slovenia,6.117999999999999,Europe,SVN,7.51,3
+111,112,Somalia,4.668,Africa,SOM,3,1
+105,106,South Africa,4.7219999999999995,Africa,ZAF,7.24,3
+53,54,South Korea,5.895,Asia,KOR,8,3
+29,30,Spain,6.354,Europe,ESP,8.29,4
+129,130,Sri Lanka,4.3660000000000005,Asia,LKA,6.27,3
+134,135,Swaziland,4.212,Africa,SWZ,4,1
+6,7,Sweden,7.343,Europe,SWE,9.39,4
+5,6,Switzerland,7.48,Europe,CHE,9.03,4
+148,149,Syria,3.4619999999999997,Asia,SYR,1.43,1
+24,25,Taiwan,6.446000000000001,Asia,TWN,7.73,3
+73,74,Tajikistan,5.4670000000000005,Asia,TJK,1.93,1
+152,153,Tanzania,3.2310000000000003,Africa,TZA,5.16,2
+51,52,Thailand,6.007999999999999,Asia,THA,6.32,3
+138,139,Togo,4.085,Africa,TGO,3.31,1
+38,39,Trinidad & Tobago,6.192,North America,TTO,7.16,3
+123,124,Tunisia,4.461,Africa,TUN,6.72,3
+78,79,Turkey,5.372999999999999,Asia,TUR,4.09,2
+86,87,Turkmenistan,5.247000000000001,Asia,TKM,1.72,1
+135,136,Uganda,4.189,Africa,UGA,5.02,2
+132,133,Ukraine,4.332,Europe,UKR,5.9,2
+20,21,United Arab Emirates,6.825,Asia,ARE,2.76,1
+14,15,United Kingdom,7.053999999999999,Europe,GBR,8.52,4
+18,19,United States of America,6.892,North America,USA,7.97,3
+32,33,Uruguay,6.292999999999999,South America,URY,8.38,4
+40,41,Uzbekistan,6.1739999999999995,Asia,UZB,2.01,1
+107,108,Venezuela,4.707,South America,VEN,2.88,1
+93,94,Vietnam,5.175,Asia,VNM,3.08,1
+150,151,Yemen,3.38,Asia,YEM,1.95,1
+137,138,Zambia,4.107,Africa,ZMB,5.09,2
+145,146,Zimbabwe,3.6630000000000003,Africa,ZWE,3.16,1
