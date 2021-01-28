@@ -1,0 +1,251 @@
+,Rank,imdb_id,Movie,Year,Director,Starring,Rating,#Reviews,Genre,Country,Language,Box_Off_Rev,Budget,Runtime
+0,1,0111161,The Shawshank Redemption,1994,Frank Darabont,"Tim Robbins, Morgan Freeman, Bob Gunton",9.3,"2,296,810",Drama,USA,English,"$28,815,291","$25,000,000",142 min
+1,2,0068646,The Godfather,1972,Francis Ford Coppola,"Marlon Brando, Al Pacino, James Caan",9.2,"1,585,266","Crime,Drama",USA,English,"$246,120,986","$6,000,000",175 min
+2,3,0071562,The Godfather: Part II,1974,Francis Ford Coppola,"Al Pacino, Robert De Niro, Robert Duvall",9.0,"1,107,591","Crime,Drama",USA,English,"$48,035,783","$13,000,000",202 min
+3,4,0468569,The Dark Knight,2008,Christopher Nolan,"Christian Bale, Heath Ledger, Aaron Eckhart",9.0,"2,261,274","Action,Crime,Drama,Thriller",USA,English,"$1,005,456,758","$185,000,000",152 min
+4,5,0050083,12 Angry Men,1957,Sidney Lumet,"Henry Fonda, Lee J. Cobb, Martin Balsam",8.9,"674,884","Crime,Drama",USA,English,$576,,96 min
+5,6,0108052,Schindler's List,1993,Steven Spielberg,"Liam Neeson, Ralph Fiennes, Ben Kingsley",8.9,"1,192,139","Biography,Drama,History",USA,English,"$322,287,794","$22,000,000",195 min
+6,7,0167260,The Lord of the Rings: The Return of the King,2003,Peter Jackson,"Elijah Wood, Viggo Mortensen, Ian McKellen",8.9,"1,614,800","Action,Adventure,Drama,Fantasy",New Zealand,English,"$1,142,270,989","$94,000,000",201 min
+7,8,0110912,Pulp Fiction,1994,Quentin Tarantino,"John Travolta, Uma Thurman, Samuel L. Jackson",8.9,"1,793,475","Crime,Drama",USA,English,"$214,194,847","$8,000,000",154 min
+8,9,0060196,"The Good, the Bad and the Ugly",1966,Sergio Leone,"Clint Eastwood, Eli Wallach, Lee Van Cleef",8.8,"677,346",Western,Italy,Italian,"$25,252,481",,161 min
+9,10,0120737,The Lord of the Rings: The Fellowship of the Ring,2001,Peter Jackson,"Elijah Wood, Ian McKellen, Orlando Bloom",8.8,"1,630,550","Action,Adventure,Drama,Fantasy",New Zealand,English,"$888,304,207","$93,000,000",178 min
+10,11,0137523,Fight Club,1999,David Fincher,"Brad Pitt, Edward Norton, Meat Loaf",8.8,"1,820,800",Drama,USA,English,"$101,209,593","$63,000,000",139 min
+11,12,0109830,Forrest Gump,1994,Robert Zemeckis,"Tom Hanks, Robin Wright, Gary Sinise",8.8,"1,769,893","Drama,Romance",USA,English,"$678,226,805","$55,000,000",142 min
+12,13,1375666,Inception,2010,Christopher Nolan,"Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page",8.8,"2,023,278","Action,Adventure,Sci-Fi,Thriller",USA,English,"$836,836,967","$160,000,000",148 min
+13,14,0167261,The Lord of the Rings: The Two Towers,2002,Peter Jackson,"Elijah Wood, Ian McKellen, Viggo Mortensen",8.7,"1,459,543","Action,Adventure,Drama,Fantasy",New Zealand,English,"$943,396,133","$94,000,000",179 min
+14,15,0080684,Star Wars: Episode V - The Empire Strikes Back,1980,Irvin Kershner,"Mark Hamill, Harrison Ford, Carrie Fisher",8.7,"1,139,596","Action,Adventure,Fantasy,Sci-Fi",USA,English,"$550,992,836","$18,000,000",124 min
+15,16,0133093,The Matrix,1999,"Lana Wachowski (as The Wachowski Brothers), Lilly Wachowski (as The Wachowski Brothers)","Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss",8.7,"1,644,383","Action,Sci-Fi",USA,English,"$465,716,699","$63,000,000",136 min
+16,17,0099685,Goodfellas,1990,Martin Scorsese,"Robert De Niro, Ray Liotta, Joe Pesci",8.7,"999,944","Biography,Crime,Drama",USA,English,"$46,884,665","$25,000,000",146 min
+17,18,0073486,One Flew Over the Cuckoo's Nest,1975,Milos Forman,"Jack Nicholson, Louise Fletcher, Michael Berryman",8.7,"901,630",Drama,USA,English,"$108,997,629",,133 min
+18,19,0047478,Seven Samurai,1954,Akira Kurosawa,"Toshirô Mifune, Takashi Shimura, Keiko Tsushima",8.6,"310,518","Action,Adventure,Drama",Japan,Japanese,"$322,773","JPY125,000,000",207 min
+19,20,0114369,Se7en,1995,David Fincher,"Morgan Freeman, Brad Pitt, Kevin Spacey",8.6,"1,414,659","Crime,Drama,Mystery,Thriller",USA,English,"$327,333,559","$33,000,000",127 min
+20,21,0118799,Life Is Beautiful,1997,Roberto Benigni,"Roberto Benigni, Nicoletta Braschi, Giorgio Cantarini",8.6,"610,898","Comedy,Drama,Romance,War",Italy,Italian,"$230,098,753","$20,000,000",116 min
+21,22,0317248,City of God,2002,"Fernando Meirelles, Kátia Lund (co-director)","Alexandre Rodrigues, Leandro Firmino, Matheus Nachtergaele",8.6,"689,839","Crime,Drama",Brazil,Portuguese,"$30,680,793","BRL3,300,000",130 min
+22,23,0102926,The Silence of the Lambs,1991,Jonathan Demme,"Jodie Foster, Anthony Hopkins, Lawrence A. Bonney",8.6,"1,245,261","Crime,Drama,Thriller",USA,English,"$272,753,884","$19,000,000",118 min
+23,24,0038650,It's a Wonderful Life,1946,Frank Capra,"James Stewart, Donna Reed, Lionel Barrymore",8.6,"390,984","Drama,Family,Fantasy",USA,English,"$6,130,720",,130 min
+24,25,0076759,Star Wars: Episode IV - A New Hope,1977,George Lucas,"Mark Hamill, Harrison Ford, Carrie Fisher",8.6,"1,211,329","Action,Adventure,Fantasy,Sci-Fi",USA,English,"$775,749,212","$11,000,000",121 min
+25,26,0120815,Saving Private Ryan,1998,Steven Spielberg,"Tom Hanks, Matt Damon, Tom Sizemore",8.6,"1,213,123","Drama,War",USA,English,"$482,349,603","$70,000,000",169 min
+26,27,0245429,Spirited Away,2001,Hayao Miyazaki,"Daveigh Chase, Suzanne Pleshette, Miyu Irino",8.6,"633,991","Animation,Adventure,Family,Fantasy,Mystery",Japan,Japanese,"$355,467,076","$19,000,000",125 min
+27,28,0120689,The Green Mile,1999,Frank Darabont,"Tom Hanks, Michael Clarke Duncan, David Morse",8.6,"1,122,695","Crime,Drama,Fantasy,Mystery",USA,English,"$286,801,374","$60,000,000",189 min
+28,29,6751668,Parasite,2019,Bong Joon Ho,"Kang-ho Song, Sun-kyun Lee, Yeo-jeong Jo",8.6,"494,718","Comedy,Drama,Thriller",South,Korean,"$257,644,295","$11,400,000",132 min
+29,30,0816692,Interstellar,2014,Christopher Nolan,"Matthew McConaughey, Anne Hathaway, Jessica Chastain",8.6,"1,469,089","Adventure,Drama,Sci-Fi,Thriller",USA,English,"$696,264,079","$165,000,000",169 min
+30,31,0110413,Léon: The Professional,1994,Luc Besson,"Jean Reno, Gary Oldman, Natalie Portman",8.5,"1,015,693","Action,Crime,Drama,Thriller",France,English,"$19,552,639","FRF115,000,000",110 min
+31,32,0114814,The Usual Suspects,1995,Bryan Singer,"Kevin Spacey, Gabriel Byrne, Chazz Palminteri",8.5,"975,572","Crime,Mystery,Thriller",USA,English,"$23,341,568","$6,000,000",106 min
+32,33,0056058,Harakiri,1962,Masaki Kobayashi,"Tatsuya Nakadai, Akira Ishihama, Shima Iwashita",8.6,"38,829","Action,Drama,Mystery",Japan,Japanese,"$15,222",,133 min
+33,34,0110357,The Lion King,1994,"Roger Allers, Rob Minkoff","Matthew Broderick, Jeremy Irons, James Earl Jones",8.5,"924,269","Animation,Adventure,Drama,Family,Musical",USA,English,"$968,511,805","$45,000,000",88 min
+34,35,0088763,Back to the Future,1985,Robert Zemeckis,"Michael J. Fox, Christopher Lloyd, Lea Thompson",8.5,"1,036,573","Adventure,Comedy,Sci-Fi",USA,English,"$388,776,253","$19,000,000",116 min
+35,36,0253474,The Pianist,2002,Roman Polanski,"Adrien Brody, Thomas Kretschmann, Frank Finlay",8.5,"714,097","Biography,Drama,Music,War",UK,English,"$120,072,577","$35,000,000",150 min
+36,37,0103064,Terminator 2: Judgment Day,1991,James Cameron,"Arnold Schwarzenegger, Linda Hamilton, Edward Furlong",8.5,"981,218","Action,Sci-Fi",USA,English,"$520,884,847","$102,000,000",137 min
+37,38,0120586,American History X,1998,Tony Kaye,"Edward Norton, Edward Furlong, Beverly D'Angelo",8.5,"1,020,256",Drama,USA,English,"$23,875,127","$20,000,000",119 min
+38,39,0027977,Modern Times,1936,Charles Chaplin (as Charlie Chaplin),"Charles Chaplin, Paulette Goddard, Henry Bergman",8.5,"213,372","Comedy,Drama,Family,Romance",USA,English,"$457,688","$1,500,000",87 min
+39,40,0054215,Psycho,1960,Alfred Hitchcock,"Anthony Perkins, Janet Leigh, Vera Miles",8.5,"592,679","Horror,Mystery,Thriller",USA,English,"$32,038,346",,109 min
+40,41,0172495,Gladiator,2000,Ridley Scott,"Russell Crowe, Joaquin Phoenix, Connie Nielsen",8.5,"1,317,465","Action,Adventure,Drama",USA,English,"$465,361,176","$103,000,000",155 min
+41,42,0021749,City Lights,1931,Charles Chaplin,"Charles Chaplin, Virginia Cherrill, Florence Lee",8.5,"164,386","Comedy,Drama,Romance",USA,None,"$46,008","$1,500,000",87 min
+42,43,0407887,The Departed,2006,Martin Scorsese,"Leonardo DiCaprio, Matt Damon, Jack Nicholson",8.5,"1,168,082","Crime,Drama,Thriller",USA,English,"$291,465,034","$90,000,000",151 min
+43,44,8503618,Hamilton,2020,Thomas Kail,"Lin-Manuel Miranda, Phillipa Soo, Leslie Odom Jr.",8.7,"44,355","Biography,Drama,History,Musical",USA,English,Rodgers,e:,160 min
+44,45,1675434,The Intouchables,2011,"Olivier Nakache, Éric Toledano","François Cluzet, Omar Sy, Anne Le Ny",8.5,"742,726","Biography,Comedy,Drama",France,French,"$426,588,510","EUR9,500,000",112 min
+45,46,2582802,Whiplash,2014,Damien Chazelle,"Miles Teller, J.K. Simmons, Melissa Benoist",8.5,"698,073","Drama,Music",USA,English,"$48,983,260","$3,300,000",106 min
+46,47,0482571,The Prestige,2006,Christopher Nolan,"Christian Bale, Hugh Jackman, Scarlett Johansson",8.5,"1,165,750","Drama,Mystery,Sci-Fi,Thriller",UK,English,"$109,676,311","$40,000,000",130 min
+47,48,0095327,Grave of the Fireflies,1988,Isao Takahata,"Tsutomu Tatsumi, Ayano Shiraishi, Akemi Yamaguchi",8.5,"228,532","Animation,Drama,War",Japan,Japanese,"$516,962","$3,700,000",89 min
+48,49,0064116,Once Upon a Time in the West,1968,Sergio Leone,"Henry Fonda, Charles Bronson, Claudia Cardinale",8.5,"297,848",Western,Italy,English,"$112,911",,165 min
+49,50,0034583,Casablanca,1942,Michael Curtiz,"Humphrey Bogart, Ingrid Bergman, Paul Henreid",8.5,"513,725","Drama,Romance,War",USA,English,"$4,375,071","$950,000",102 min
+50,51,0095765,Cinema Paradiso,1988,Giuseppe Tornatore,"Philippe Noiret, Enzo Cannavale, Antonella Attili",8.5,"225,412",Drama,Italy,Italian,"$12,953,675","$5,000,000",155 min
+51,52,0047396,Rear Window,1954,Alfred Hitchcock,"James Stewart, Grace Kelly, Wendell Corey",8.4,"436,137","Mystery,Thriller",USA,English,"$37,032,034",,112 min
+52,53,0078748,Alien,1979,Ridley Scott,"Sigourney Weaver, Tom Skerritt, John Hurt",8.4,"774,761","Horror,Sci-Fi",UK,English,"$108,303,039","$11,000,000",117 min
+53,54,0078788,Apocalypse Now,1979,Francis Ford Coppola (as Francis Coppola),"Martin Sheen, Marlon Brando, Robert Duvall",8.4,"595,643","Drama,Mystery,War",USA,English,"$91,968,688","$31,500,000",147 min
+54,55,0209144,Memento,2000,Christopher Nolan,"Guy Pearce, Carrie-Anne Moss, Joe Pantoliano",8.4,"1,107,586","Mystery,Thriller",USA,English,"$39,970,386","$9,000,000",113 min
+55,56,0082971,Raiders of the Lost Ark,1981,Steven Spielberg,"Harrison Ford, Karen Allen, Paul Freeman",8.4,"870,799","Action,Adventure",USA,English,"$390,133,212","$18,000,000",115 min
+56,57,0032553,The Great Dictator,1940,Charles Chaplin,"Charles Chaplin, Paulette Goddard, Jack Oakie",8.4,"199,279","Comedy,Drama,War",USA,English,"$969,879",,125 min
+57,58,1853728,Django Unchained,2012,Quentin Tarantino,"Jamie Foxx, Christoph Waltz, Leonardo DiCaprio",8.4,"1,329,136","Drama,Western",USA,English,"$425,368,238","$100,000,000",165 min
+58,59,0405094,The Lives of Others,2006,Florian Henckel von Donnersmarck,"Ulrich Mühe, Martina Gedeck, Sebastian Koch",8.4,"352,407","Drama,Mystery,Thriller",Germany,German,"$77,356,942","$2,000,000",137 min
+59,60,7286456,Joker,2019,Todd Phillips,"Joaquin Phoenix, Robert De Niro, Zazie Beetz",8.5,"883,751","Crime,Drama,Thriller",USA,English,"$1,074,251,311","$55,000,000",122 min
+60,61,0050825,Paths of Glory,1957,Stanley Kubrick,"Kirk Douglas, Ralph Meeker, Adolphe Menjou",8.4,"174,478","Drama,War",USA,English,"$5,252",,88 min
+61,62,0910970,WALL·E,2008,Andrew Stanton,"Ben Burtt, Elissa Knight, Jeff Garlin",8.4,"981,533","Animation,Adventure,Family,Sci-Fi",USA,English,"$521,311,860","$180,000,000",98 min
+62,63,0081505,The Shining,1980,Stanley Kubrick,"Jack Nicholson, Shelley Duvall, Danny Lloyd",8.4,"878,183","Drama,Horror",UK,English,"$46,649,372","$19,000,000",144 min
+63,64,4154756,Avengers: Infinity War,2018,"Anthony Russo, Joe Russo","Robert Downey Jr., Chris Hemsworth, Mark Ruffalo",8.4,"807,370","Action,Adventure,Sci-Fi",USA,English,"$2,048,359,754","$321,000,000",149 min
+64,65,0043014,Sunset Blvd.,1950,Billy Wilder,"William Holden, Gloria Swanson, Erich von Stroheim",8.4,"197,872","Drama,Film-Noir",USA,English,"$299,645","$1,752,000",110 min
+65,66,0051201,Witness for the Prosecution,1957,Billy Wilder,"Tyrone Power, Marlene Dietrich, Charles Laughton",8.4,"106,100","Crime,Drama,Mystery,Thriller",USA,English,"$7,693",,116 min
+66,67,4633694,Spider-Man: Into the Spider-Verse,2018,"Bob Persichetti, Peter Ramsey | 1 more credit »","Shameik Moore, Jake Johnson, Hailee Steinfeld",8.4,"345,246","Animation,Action,Adventure,Family,Sci-Fi",USA,English,"$375,540,831","$90,000,000",117 min
+67,68,0119698,Princess Mononoke,1997,Hayao Miyazaki,"Yôji Matsuda, Yuriko Ishida, Yûko Tanaka",8.4,"334,771","Animation,Adventure,Fantasy",Japan,Japanese,"$169,785,629","JPY2,400,000,000",134 min
+68,69,0364569,Oldboy,2003,Chan-wook Park,"Min-sik Choi, Ji-Tae Yoo, Hye-jeong Kang",8.4,"505,224","Action,Drama,Mystery,Thriller",South,Korean,"$15,002,116","$3,000,000",120 min
+69,70,0057012,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,1964,Stanley Kubrick,"Peter Sellers, George C. Scott, Sterling Hayden",8.4,"443,991",Comedy,UK,English,"$9,443,876","$1,800,000",95 min
+70,71,1345836,The Dark Knight Rises,2012,Christopher Nolan,"Christian Bale, Tom Hardy, Anne Hathaway",8.4,"1,491,694","Action,Adventure",UK,English,"$1,081,141,368","$250,000,000",164 min
+71,72,0087843,Once Upon a Time in America,1984,Sergio Leone,"Robert De Niro, James Woods, Elizabeth McGovern",8.4,"305,066","Crime,Drama",USA,English,"$5,472,914","$30,000,000",229 min
+72,73,0090605,Aliens,1986,James Cameron,"Sigourney Weaver, Michael Biehn, Carrie Henn",8.3,"643,637","Action,Adventure,Sci-Fi,Thriller",USA,English,"$131,387,641","$18,500,000",137 min
+73,74,5311514,Your Name.,2016,Makoto Shinkai,"Ryûnosuke Kamiki, Mone Kamishiraishi, Ryô Narita",8.4,"183,448","Animation,Drama,Fantasy,Romance",Japan,Japanese,"$358,922,706","JPY370,000,000",106 min
+74,75,4154796,Avengers: Endgame,2019,"Anthony Russo, Joe Russo","Robert Downey Jr., Chris Evans, Mark Ruffalo",8.4,"772,940","Action,Adventure,Drama,Sci-Fi",USA,English,"$2,797,800,564","$356,000,000",181 min
+75,76,2380307,Coco,2017,"Lee Unkrich, Adrian Molina (co-director)","Anthony Gonzalez, Gael García Bernal, Benjamin Bratt",8.4,"359,711","Animation,Adventure,Family,Fantasy,Music,Mystery",USA,English,"$807,817,888","$175,000,000",105 min
+76,77,0169547,American Beauty,1999,Sam Mendes,"Kevin Spacey, Annette Bening, Thora Birch",8.3,"1,054,930",Drama,USA,English,"$356,296,601","$15,000,000",122 min
+77,78,0112573,Braveheart,1995,Mel Gibson,"Mel Gibson, Sophie Marceau, Patrick McGoohan",8.3,"946,664","Biography,Drama,History,War",USA,English,"$213,216,216","$72,000,000",178 min
+78,79,1187043,3 Idiots,2009,Rajkumar Hirani,"Aamir Khan, Madhavan, Mona Singh",8.4,"335,647","Comedy,Drama",India,Hindi,"$60,262,836","INR550,000,000",170 min
+79,80,0082096,Das Boot,1981,Wolfgang Petersen,"Jürgen Prochnow, Herbert Grönemeyer, Klaus Wennemann",8.3,"228,180","Adventure,Drama,Thriller,War",West,German,"$11,487,676","DEM32,000,000",149 min
+80,81,0114709,Toy Story,1995,John Lasseter,"Tom Hanks, Tim Allen, Don Rickles",8.3,"870,885","Animation,Adventure,Comedy,Family,Fantasy",USA,English,"$404,265,656","$30,000,000",81 min
+81,82,0057565,High and Low,1963,Akira Kurosawa,"Toshirô Mifune, Yutaka Sada, Tatsuya Nakadai",8.4,"32,354","Crime,Drama,Mystery,Thriller",Japan,Japanese,"$46,808",,143 min
+82,83,0086879,Amadeus,1984,Milos Forman,"F. Murray Abraham, Tom Hulce, Elizabeth Berridge",8.3,"363,472","Biography,Drama,History,Music",USA,English,"$52,066,791","$18,000,000",160 min
+83,84,8267604,Capernaum,2018,Nadine Labaki,"Zain Al Rafeea, Yordanos Shiferaw, Boluwatife Treasure Bankole",8.4,"56,422",Drama,Lebanon,Arabic,"$64,417,003","$4,000,000",126 min
+84,85,0986264,Like Stars on Earth,2007,"Aamir Khan, Amole Gupte (uncredited)","Darsheel Safary, Aamir Khan, Tisca Chopra",8.4,"163,876","Drama,Family",India,Hindi,"$21,897,373",,165 min
+85,86,0086190,Star Wars: Episode VI - Return of the Jedi,1983,Richard Marquand,"Mark Hamill, Harrison Ford, Carrie Fisher",8.3,"934,059","Action,Adventure,Fantasy,Sci-Fi",USA,English,"$475,546,459","$32,500,000",131 min
+86,87,0361748,Inglourious Basterds,2009,Quentin Tarantino,"Brad Pitt, Diane Kruger, Eli Roth",8.3,"1,239,925","Adventure,Drama,War",Germany,English,"$321,455,689","$70,000,000",153 min
+87,88,0105236,Reservoir Dogs,1992,Quentin Tarantino,"Harvey Keitel, Tim Roth, Michael Madsen",8.3,"903,015","Crime,Drama,Thriller",USA,English,"$2,889,963","$1,200,000",99 min
+88,89,0119217,Good Will Hunting,1997,Gus Van Sant,"Robin Williams, Matt Damon, Ben Affleck",8.3,"844,492","Drama,Romance",USA,English,"$225,933,435","$10,000,000",126 min
+89,90,0062622,2001: A Space Odyssey,1968,Stanley Kubrick,"Keir Dullea, Gary Lockwood, William Sylvester",8.3,"592,628","Adventure,Sci-Fi",UK,English,"$65,436,747","$12,000,000",149 min
+90,91,0180093,Requiem for a Dream,2000,Darren Aronofsky,"Ellen Burstyn, Jared Leto, Jennifer Connelly",8.3,"753,967",Drama,USA,English,"$7,390,108","$4,500,000",102 min
+91,92,0052357,Vertigo,1958,Alfred Hitchcock,"James Stewart, Kim Novak, Barbara Bel Geddes",8.3,"356,740","Mystery,Romance,Thriller",USA,English,"$7,796,389","$2,479,000",128 min
+92,93,0022100,M,1931,Fritz Lang,"Peter Lorre, Ellen Widmann, Inge Landgut",8.3,"140,731","Crime,Mystery,Thriller",Germany,German,"$35,566",,117 min
+93,94,5074352,Dangal,2016,Nitesh Tiwari,"Aamir Khan, Sakshi Tanwar, Fatima Sana Shaikh",8.4,"150,314","Action,Biography,Drama,Sport",India,Hindi,"$303,723,636","INR700,000,000",161 min
+94,95,0338013,Eternal Sunshine of the Spotless Mind,2004,Michel Gondry,"Jim Carrey, Kate Winslet, Tom Wilkinson",8.3,"896,663","Drama,Romance,Sci-Fi",USA,English,"$74,036,715","$20,000,000",108 min
+95,96,2106476,The Hunt,2012,Thomas Vinterberg,"Mads Mikkelsen, Thomas Bo Larsen, Annika Wedderkopp",8.3,"272,765",Drama,Denmark,Danish,"$15,843,274","$3,800,000",115 min
+96,97,0033467,Citizen Kane,1941,Orson Welles,"Orson Welles, Joseph Cotten, Dorothy Comingore",8.3,"392,418","Drama,Mystery",USA,English,"$1,594,107",,119 min
+97,98,8579674,1917,2019,Sam Mendes,"Dean-Charles Chapman, George MacKay, Daniel Mays",8.3,"379,754","Drama,War",USA,English,"$384,792,488","$95,000,000",119 min
+98,99,0093058,Full Metal Jacket,1987,Stanley Kubrick,"Matthew Modine, R. Lee Ermey, Vincent D'Onofrio",8.3,"663,362","Drama,War",UK,English,"$46,357,676","$30,000,000",116 min
+99,100,0040522,Bicycle Thieves,1948,Vittorio De Sica,"Lamberto Maggiorani, Enzo Staiola, Lianella Carell",8.3,"143,123",Drama,Italy,Italian,"$428,978","$133,000",89 min
+100,101,0012349,The Kid,1921,Charles Chaplin (as Charlie Chaplin),"Charles Chaplin, Edna Purviance, Jackie Coogan",8.3,"110,556","Comedy,Drama,Family",USA,English,"$26,916",,68 min
+101,102,0045152,Singin' in the Rain,1952,"Stanley Donen, Gene Kelly","Gene Kelly, Donald O'Connor, Debbie Reynolds",8.3,"214,914","Comedy,Musical,Romance",USA,English,"$1,864,182","$2,540,800",103 min
+102,103,0066921,A Clockwork Orange,1971,Stanley Kubrick,"Malcolm McDowell, Patrick Magee, Michael Bates",8.3,"745,499","Crime,Drama,Sci-Fi",UK,English,"$26,903,440",,136 min
+103,104,0053125,North by Northwest,1959,Alfred Hitchcock,"Cary Grant, Eva Marie Saint, James Mason",8.3,"294,273","Adventure,Mystery,Thriller",USA,English,"$73,446",,136 min
+104,105,0208092,Snatch,2000,Guy Ritchie,"Jason Statham, Brad Pitt, Benicio Del Toro",8.3,"771,014","Comedy,Crime",UK,English,"$83,557,872","GBP6,000,000",104 min
+105,106,0086250,Scarface,1983,Brian De Palma,"Al Pacino, Michelle Pfeiffer, Steven Bauer",8.3,"727,069","Crime,Drama",USA,English,"$66,023,585","$25,000,000",170 min
+106,107,0075314,Taxi Driver,1976,Martin Scorsese,"Robert De Niro, Jodie Foster, Cybill Shepherd",8.3,"709,657","Crime,Drama",USA,English,"$28,441,292","$1,300,000",114 min
+107,108,0044741,Ikiru,1952,Akira Kurosawa,"Takashi Shimura, Nobuo Kaneko, Shin'ichi Himori",8.3,"66,462",Drama,Japan,Japanese,"$90,773",,143 min
+108,109,0056172,Lawrence of Arabia,1962,David Lean,"Peter O'Toole, Alec Guinness, Anthony Quinn",8.3,"263,563","Adventure,Biography,Drama,History,War",UK,English,"$45,715,557","$15,000,000",187 min
+109,110,0211915,Amélie,2001,Jean-Pierre Jeunet,"Audrey Tautou, Mathieu Kassovitz, Rufus",8.3,"694,227","Comedy,Romance",France,French,"$173,924,742","$10,000,000",122 min
+110,111,0435761,Toy Story 3,2010,Lee Unkrich,"Tom Hanks, Tim Allen, Joan Cusack",8.3,"744,681","Animation,Adventure,Comedy,Family,Fantasy",USA,English,"$1,066,969,703","$200,000,000",103 min
+111,112,0070735,The Sting,1973,George Roy Hill,"Paul Newman, Robert Redford, Robert Shaw",8.3,"237,918","Comedy,Crime,Drama",USA,English,"$156,000,000",,129 min
+112,113,0017136,Metropolis,1927,Fritz Lang,"Brigitte Helm, Alfred Abel, Gustav Fröhlich",8.3,"157,487","Drama,Sci-Fi",Germany,German,"$1,349,711","DEM6,000,000",153 min
+113,114,1832382,A Separation,2011,Asghar Farhadi,"Payman Maadi, Leila Hatami, Sareh Bayat",8.3,"215,774","Drama,Thriller",Iran,Persian,"$22,926,076","$500,000",123 min
+114,115,1255953,Incendies,2010,Denis Villeneuve,"Lubna Azabal, Mélissa Désormeaux-Poulin, Maxim Gaudette",8.3,"144,913","Drama,Mystery,War",Canada,French,"$7,099,598","$6,800,000",131 min
+115,116,0059578,For a Few Dollars More,1965,Sergio Leone,"Clint Eastwood, Lee Van Cleef, Gian Maria Volontè",8.3,"228,399",Western,Italy,Italian,"$15,000,000",,132 min
+116,117,0091251,Come and See,1985,Elem Klimov (as E. Klimov),"Aleksey Kravchenko, Olga Mironova, Liubomiras Laucevicius",8.3,"55,810","Drama,Thriller,War",Soviet,Russian,"$168,817",,142 min
+117,118,0053604,The Apartment,1960,Billy Wilder,"Jack Lemmon, Shirley MacLaine, Fred MacMurray",8.3,"160,715","Comedy,Drama,Romance",USA,English,"$178,003",,125 min
+118,119,0036775,Double Indemnity,1944,Billy Wilder,"Fred MacMurray, Barbara Stanwyck, Edward G. Robinson",8.3,"140,935","Crime,Drama,Film-Noir,Mystery,Thriller",USA,English,"$13,886",,107 min
+119,120,0056592,To Kill a Mockingbird,1962,Robert Mulligan,"Gregory Peck, John Megna, Frank Overton",8.2,"290,435","Crime,Drama",USA,English,"$599,146","$2,000,000",129 min
+120,121,1049413,Up,2009,"Pete Docter, Bob Peterson (co-director)","Edward Asner, Jordan Nagai, John Ratzenberger",8.2,"918,106","Animation,Adventure,Comedy,Family",USA,English,"$735,099,102","$175,000,000",96 min
+121,122,0097576,Indiana Jones and the Last Crusade,1989,Steven Spielberg,"Harrison Ford, Sean Connery, Alison Doody",8.2,"681,227","Action,Adventure",USA,English,"$474,310,887","$48,000,000",127 min
+122,123,0119488,L.A. Confidential,1997,Curtis Hanson,"Kevin Spacey, Russell Crowe, Guy Pearce",8.2,"524,617","Crime,Drama,Mystery,Thriller",USA,English,"$126,216,940","$35,000,000",138 min
+123,124,0113277,Heat,1995,Michael Mann,"Al Pacino, Robert De Niro, Val Kilmer",8.2,"566,599","Crime,Drama,Thriller",USA,English,"$187,436,818","$60,000,000",170 min
+124,125,0095016,Die Hard,1988,John McTiernan,"Bruce Willis, Alan Rickman, Bonnie Bedelia",8.2,"772,245","Action,Thriller",USA,English,"$141,482,299","$28,000,000",132 min
+125,126,0071853,Monty Python and the Holy Grail,1975,"Terry Gilliam, Terry Jones","Graham Chapman, John Cleese, Eric Idle",8.2,"494,516","Adventure,Comedy,Fantasy",UK,English,"$1,938,971","GBP229,575",91 min
+126,127,0042876,Rashomon,1950,Akira Kurosawa,"Toshirô Mifune, Machiko Kyô, Masayuki Mori",8.2,"149,646","Crime,Drama,Mystery",Japan,Japanese,"$46,808","$250,000",88 min
+127,128,0055630,Yojimbo,1961,Akira Kurosawa,"Toshirô Mifune, Eijirô Tôno, Tatsuya Nakadai",8.2,"108,859","Action,Drama,Thriller",Japan,Japanese,"$46,808",,110 min
+128,129,0372784,Batman Begins,2005,Christopher Nolan,"Christian Bale, Michael Caine, Ken Watanabe",8.2,"1,287,548","Action,Adventure",USA,English,"$373,661,301","$150,000,000",140 min
+129,130,6966692,Green Book,2018,Peter Farrelly,"Viggo Mortensen, Mahershala Ali, Linda Cardellini",8.2,"350,320","Biography,Comedy,Drama,Music",USA,English,"$321,752,656","$23,000,000",130 min
+130,131,0118849,Children of Heaven,1997,Majid Majidi,"Mohammad Amir Naji, Amir Farrokh Hashemian, Bahare Seddiqi",8.3,"63,356","Drama,Family,Sport",Iran,Persian,"$933,933","$180,000",89 min
+131,132,0363163,Downfall,2004,Oliver Hirschbiegel,"Bruno Ganz, Alexandra Maria Lara, Ulrich Matthes",8.2,"326,749","Biography,Drama,History,War",Germany,German,"$92,181,574","EUR13,500,000",156 min
+132,133,0105695,Unforgiven,1992,Clint Eastwood,"Clint Eastwood, Gene Hackman, Morgan Freeman",8.2,"369,983","Drama,Western",USA,English,"$159,157,447","$14,400,000",130 min
+133,134,0089881,Ran,1985,Akira Kurosawa,"Tatsuya Nakadai, Akira Terao, Jinpachi Nezu",8.2,"110,102","Action,Drama,War",Japan,Japanese,"$4,163,664","$11,500,000",162 min
+134,135,0053291,Some Like It Hot,1959,Billy Wilder,"Marilyn Monroe, Tony Curtis, Jack Lemmon",8.2,"239,874","Comedy,Music,Romance",USA,English,"$83,284,366",,121 min
+135,136,0347149,Howl's Moving Castle,2004,Hayao Miyazaki,"Chieko Baishô, Takuya Kimura, Tatsuya Gashûin",8.2,"323,730","Animation,Adventure,Family,Fantasy",Japan,Japanese,"$236,212,992","$24,000,000",119 min
+136,137,0268978,A Beautiful Mind,2001,Ron Howard,"Russell Crowe, Ed Harris, Jennifer Connelly",8.2,"833,663","Biography,Drama",USA,English,"$316,791,257","$58,000,000",135 min
+137,138,0042192,All About Eve,1950,Joseph L. Mankiewicz,"Bette Davis, Anne Baxter, George Sanders",8.2,"118,650",Drama,USA,English,"$150,438","$1,400,000",138 min
+138,139,0112641,Casino,1995,Martin Scorsese,"Robert De Niro, Sharon Stone, Joe Pesci",8.2,"457,010","Crime,Drama",France,English,"$116,112,375","$52,000,000",178 min
+139,140,0057115,The Great Escape,1963,John Sturges,"Steve McQueen, James Garner, Richard Attenborough",8.2,"221,223","Adventure,Drama,History,Thriller,War",USA,English,"$227,940",,172 min
+140,141,0993846,The Wolf of Wall Street,2013,Martin Scorsese,"Leonardo DiCaprio, Jonah Hill, Margot Robbie",8.2,"1,153,199","Biography,Crime,Drama",USA,English,"$392,000,694","$100,000,000",180 min
+141,142,0457430,Pan's Labyrinth,2006,Guillermo del Toro,"Ivana Baquero, Ariadna Gil, Sergi López",8.2,"610,480","Drama,Fantasy,War",Mexico,Spanish,"$83,850,267","$19,000,000",118 min
+142,143,0066763,Anand,1971,Hrishikesh Mukherjee,"Rajesh Khanna, Amitabh Bachchan, Sumita Sanyal",8.5,"28,943","Drama,Musical",India,Hindi,,,122 min
+143,144,1305806,The Secret in Their Eyes,2009,Juan José Campanella,"Ricardo Darín, Soledad Villamil, Pablo Rago",8.2,"189,477","Drama,Mystery,Romance,Thriller",Argentina,Spanish,"$35,079,650","$2,000,000",129 min
+144,145,0120735,"Lock, Stock and Two Smoking Barrels",1998,Guy Ritchie,"Jason Flemyng, Dexter Fletcher, Nick Moran",8.2,"527,747","Action,Comedy,Crime",UK,English,"$3,753,929","GBP960,000",107 min
+145,146,0081398,Raging Bull,1980,Martin Scorsese,"Robert De Niro, Cathy Moriarty, Joe Pesci",8.2,"316,309","Biography,Drama,Sport",USA,English,"$23,402,427","$18,000,000",129 min
+146,147,0096283,My Neighbor Totoro,1988,Hayao Miyazaki,"Hitoshi Takagi, Noriko Hidaka, Chika Sakamoto",8.2,"282,407","Animation,Family,Fantasy",Japan,Japanese,"$30,477,153","$3,700,000",86 min
+147,148,0469494,There Will Be Blood,2007,Paul Thomas Anderson,"Daniel Day-Lewis, Paul Dano, Ciarán Hinds",8.2,"507,146",Drama,USA,English,"$76,181,545","$25,000,000",158 min
+148,149,0055031,Judgment at Nuremberg,1961,Stanley Kramer,"Spencer Tracy, Burt Lancaster, Richard Widmark",8.2,"68,087","Drama,War",USA,English,"$12,180",,179 min
+149,150,0040897,The Treasure of the Sierra Madre,1948,John Huston,"Humphrey Bogart, Walter Huston, Tim Holt",8.2,"112,419","Adventure,Drama,Western",USA,English,"$215,295","$3,000,000",126 min
+150,151,5027774,"Three Billboards Outside Ebbing, Missouri",2017,Martin McDonagh,"Frances McDormand, Woody Harrelson, Sam Rockwell",8.2,"417,454","Comedy,Crime,Drama",UK,English,"$160,192,031","$15,000,000",115 min
+151,152,0046912,Dial M for Murder,1954,Alfred Hitchcock,"Ray Milland, Grace Kelly, Robert Cummings",8.2,"154,954","Crime,Thriller",USA,English,"$18,816","$1,400,000",105 min
+152,153,0071315,Chinatown,1974,Roman Polanski,"Jack Nicholson, Faye Dunaway, John Huston",8.1,"289,225","Drama,Mystery,Thriller",USA,English,"$29,225,935",,130 min
+153,154,0015864,The Gold Rush,1925,Charles Chaplin,"Charles Chaplin, Mack Swain, Tom Murray",8.2,"98,683","Adventure,Comedy,Drama,Western",USA,English,"$26,916",,95 min
+154,155,0476735,My Father and My Son,2005,Çagan Irmak,"Çetin Tekindor, Fikret Kuskan, Hümeyra",8.3,"76,955","Drama,Family",Turkey,Turkish,"$18,612,999",,112 min
+155,156,1130884,Shutter Island,2010,Martin Scorsese,"Leonardo DiCaprio, Emily Mortimer, Mark Ruffalo",8.2,"1,105,842","Mystery,Thriller",USA,English,"$294,804,195","$80,000,000",138 min
+156,157,0477348,No Country for Old Men,2007,"Ethan Coen, Joel Coen","Tommy Lee Jones, Javier Bardem, Josh Brolin",8.1,"838,813","Crime,Drama,Thriller",USA,English,"$171,627,166","$25,000,000",122 min
+157,158,0434409,V for Vendetta,2005,James McTeigue,"Hugo Weaving, Natalie Portman, Rupert Graves",8.2,"1,016,062","Action,Drama,Sci-Fi,Thriller",USA,English,"$132,511,035","$54,000,000",132 min
+158,159,0050976,The Seventh Seal,1957,Ingmar Bergman,"Max von Sydow, Gunnar Björnstrand, Bengt Ekerot",8.2,"161,030","Drama,Fantasy",Sweden,Swedish,"$230,571",,96 min
+159,160,2096673,Inside Out,2015,"Pete Docter, Ronnie Del Carmen (co-director)","Amy Poehler, Bill Hader, Lewis Black",8.1,"598,395","Animation,Adventure,Comedy,Drama,Family,Fantasy",USA,English,"$858,071,350","$175,000,000",95 min
+160,161,1291584,Warrior,2011,Gavin O'Connor,"Tom Hardy, Nick Nolte, Joel Edgerton",8.2,"430,081","Action,Drama,Sport",USA,English,"$23,308,615","$25,000,000",140 min
+161,162,0080678,The Elephant Man,1980,David Lynch,"Anthony Hopkins, John Hurt, Anne Bancroft",8.1,"216,273","Biography,Drama",USA,English,"$26,020,641",,124 min
+162,163,0084787,The Thing,1982,John Carpenter,"Kurt Russell, Wilford Brimley, Keith David",8.1,"363,715","Horror,Mystery,Sci-Fi",USA,English,"$19,629,760","$15,000,000",109 min
+163,164,0167404,The Sixth Sense,1999,M. Night Shyamalan,"Bruce Willis, Haley Joel Osment, Toni Collette",8.1,"899,490","Drama,Mystery,Thriller",USA,English,"$672,806,292","$40,000,000",107 min
+164,165,0117951,Trainspotting,1996,Danny Boyle,"Ewan McGregor, Ewen Bremner, Jonny Lee Miller",8.1,"626,614",Drama,UK,English,"$16,593,356","GBP1,500,000",93 min
+165,166,0107290,Jurassic Park,1993,Steven Spielberg,"Sam Neill, Laura Dern, Jeff Goldblum",8.1,"852,617","Action,Adventure,Sci-Fi,Thriller",USA,English,"$1,033,920,013","$63,000,000",127 min
+166,167,0031381,Gone with the Wind,1939,"Victor Fleming, George Cukor (uncredited) | 1 more credit »","Clark Gable, Vivien Leigh, Thomas Mitchell",8.1,"285,727","Drama,History,Romance,War",USA,English,"$402,352,579","$3,977,000",238 min
+167,168,0120382,The Truman Show,1998,Peter Weir,"Jim Carrey, Ed Harris, Laura Linney",8.1,"918,963","Comedy,Drama,Sci-Fi",USA,English,"$264,118,201","$60,000,000",103 min
+168,169,0050986,Wild Strawberries,1957,Ingmar Bergman,"Victor Sjöström, Bibi Andersson, Ingrid Thulin",8.2,"93,940","Drama,Romance",Sweden,Swedish,"$14,524",,91 min
+169,170,0266543,Finding Nemo,2003,"Andrew Stanton, Lee Unkrich (co-director)","Albert Brooks, Ellen DeGeneres, Alexander Gould",8.1,"934,002","Animation,Adventure,Comedy,Family",USA,English,"$940,350,194","$94,000,000",100 min
+170,171,0083658,Blade Runner,1982,Ridley Scott,"Harrison Ford, Rutger Hauer, Sean Young",8.1,"682,846","Action,Sci-Fi,Thriller",USA,English,"$41,633,637","$28,000,000",117 min
+171,172,0079944,Stalker,1979,Andrei Tarkovsky,"Alisa Freyndlikh, Aleksandr Kaydanovskiy, Anatoliy Solonitsyn",8.2,"113,587","Drama,Sci-Fi",Soviet,Russian,"$303,815","RUR6,000,000",162 min
+172,173,0266697,Kill Bill: Vol. 1,2003,Quentin Tarantino,"Uma Thurman, David Carradine, Daryl Hannah",8.1,"984,157","Action,Crime,Thriller",USA,English,"$180,899,045","$30,000,000",111 min
+173,174,3170832,Room,2015,Lenny Abrahamson,"Brie Larson, Jacob Tremblay, Sean Bridgers",8.1,"361,774","Drama,Thriller",Canada,English,"$35,401,758","$13,000,000",118 min
+174,175,0050212,The Bridge on the River Kwai,1957,David Lean,"William Holden, Alec Guinness, Jack Hawkins",8.1,"200,274","Adventure,Drama,War",UK,English,"$27,200,000",,161 min
+175,176,0116282,Fargo,1996,"Joel Coen, Ethan Coen (uncredited)","William H. Macy, Frances McDormand, Steve Buscemi",8.1,"605,675","Crime,Drama,Thriller",USA,English,"$60,611,975","$7,000,000",98 min
+176,177,0353969,Memories of Murder,2003,Bong Joon Ho,"Kang-ho Song, Sang-kyung Kim, Roe-ha Kim",8.1,"131,489","Action,Crime,Drama,Mystery,Thriller",South,Korean,"$1,123,723","$2,800,000",131 min
+177,178,0041959,The Third Man,1949,Carol Reed,"Orson Welles, Joseph Cotten, Alida Valli",8.1,"156,405","Film-Noir,Mystery,Thriller",UK,English,"$1,226,098",,104 min
+178,179,0046438,Tokyo Story,1953,Yasujirô Ozu,"Chishû Ryû, Chieko Higashiyama, Sô Yamamura",8.2,"51,316",Drama,Japan,Japanese,"$40,405",,136 min
+179,180,1205489,Gran Torino,2008,Clint Eastwood,"Clint Eastwood, Bee Vang, Christopher Carley",8.1,"711,264",Drama,Germany,English,"$269,958,228","$33,000,000",116 min
+180,181,0047296,On the Waterfront,1954,Elia Kazan,"Marlon Brando, Karl Malden, Lee J. Cobb",8.1,"139,712","Crime,Drama,Thriller",USA,English,,,108 min
+181,182,3011894,Wild Tales,2014,Damián Szifron,"Darío Grandinetti, María Marull, Mónica Villa",8.1,"172,522","Comedy,Drama,Thriller",Argentina,Spanish,"$30,642,704","$3,300,000",122 min
+182,183,0077416,The Deer Hunter,1978,Michael Cimino,"Robert De Niro, Christopher Walken, John Cazale",8.1,"306,470","Drama,War",USA,English,"$49,074,243",,183 min
+183,184,4729430,Klaus,2019,"Sergio Pablos, Carlos Martínez López (co-director)","Jason Schwartzman, J.K. Simmons, Rashida Jones",8.2,"77,351","Animation,Adventure,Comedy,Family",Spain,English,,e:,96 min
+184,185,0107207,In the Name of the Father,1993,Jim Sheridan,"Daniel Day-Lewis, Pete Postlethwaite, Alison Crosbie",8.1,"154,064","Biography,Drama",Ireland,English,"$65,796,862","$13,000,000",133 min
+185,186,0978762,Mary and Max,2009,Adam Elliot,"Toni Collette, Philip Seymour Hoffman, Eric Bana",8.1,"162,114","Animation,Comedy,Drama,Family",Australia,English,"$1,739,445",,92 min
+186,187,2267998,Gone Girl,2014,David Fincher,"Ben Affleck, Rosamund Pike, Neil Patrick Harris",8.1,"840,744","Drama,Mystery,Thriller",USA,English,"$369,330,363","$61,000,000",149 min
+187,188,8108198,Andhadhun,2018,Sriram Raghavan,"Ayushmann Khurrana, Tabu, Radhika Apte",8.3,"67,543","Crime,Thriller",India,Hindi,"$62,475,342","$4,500,000",139 min
+188,189,2278388,The Grand Budapest Hotel,2014,Wes Anderson,"Ralph Fiennes, F. Murray Abraham, Mathieu Amalric",8.1,"692,869","Adventure,Comedy,Crime",Germany,English,"$172,940,046","$25,000,000",99 min
+189,190,2119532,Hacksaw Ridge,2016,Mel Gibson,"Andrew Garfield, Sam Worthington, Luke Bracey",8.1,"423,326","Biography,Drama,History,War",Australia,English,"$180,450,918","$40,000,000",139 min
+190,191,0112471,Before Sunrise,1995,Richard Linklater,"Ethan Hawke, Julie Delpy, Andrea Eckert",8.1,"265,599","Drama,Romance",USA,English,"$5,986,708","$2,500,000",101 min
+191,192,0264464,Catch Me If You Can,2002,Steven Spielberg,"Leonardo DiCaprio, Tom Hanks, Christopher Walken",8.1,"808,963","Biography,Crime,Drama",USA,English,"$352,114,312","$52,000,000",141 min
+192,193,0118715,The Big Lebowski,1998,"Joel Coen, Ethan Coen (uncredited)","Jeff Bridges, John Goodman, Julianne Moore",8.1,"719,696","Comedy,Crime,Sport",USA,English,"$46,737,965","$15,000,000",117 min
+193,194,0060827,Persona,1966,Ingmar Bergman,"Bibi Andersson, Liv Ullmann, Margaretha Krook",8.1,"100,216","Drama,Thriller",Sweden,Swedish,"$25,407",,85 min
+194,195,1392214,Prisoners,2013,Denis Villeneuve,"Hugh Jackman, Jake Gyllenhaal, Viola Davis",8.1,"586,974","Crime,Drama,Mystery,Thriller",USA,English,"$122,126,687","$46,000,000",153 min
+195,196,0035446,To Be or Not to Be,1942,Ernst Lubitsch,"Carole Lombard, Jack Benny, Robert Stack",8.2,"28,351","Comedy,War",USA,English,"$4,578,000",,99 min
+196,197,0116231,The Bandit,1996,Yavuz Turgul,"Sener Sen, Ugur Yücel, Sermin Hürmeriç",8.2,"62,610","Crime,Drama,Thriller",Turkey,Turkish,,,128 min
+197,198,0015324,Sherlock Jr.,1924,Buster Keaton,"Buster Keaton, Kathryn McGuire, Joe Keaton",8.2,"40,432","Action,Comedy,Romance",USA,None,,,45 min
+198,199,0017925,The General,1926,"Clyde Bruckman, Buster Keaton","Buster Keaton, Marion Mack, Glen Cavender",8.1,"79,503","Action,Adventure,Comedy,Drama,War",USA,None,,,67 min
+199,200,1950186,Ford v Ferrari,2019,James Mangold,"Matt Damon, Christian Bale, Jon Bernthal",8.1,"266,774","Action,Biography,Drama,Sport",USA,English,"$225,508,210","$97,600,000",152 min
+200,201,0892769,How to Train Your Dragon,2010,"Dean DeBlois, Chris Sanders","Jay Baruchel, Gerard Butler, Christopher Mintz-Plasse",8.1,"655,798","Animation,Action,Adventure,Family,Fantasy",USA,English,"$494,878,759","$165,000,000",98 min
+201,202,0031679,Mr. Smith Goes to Washington,1939,Frank Capra,"James Stewart, Jean Arthur, Claude Rains",8.1,"105,228","Comedy,Drama",USA,English,"$144,738","$1,900,000",129 min
+202,203,2024544,12 Years a Slave,2013,Steve McQueen,"Chiwetel Ejiofor, Michael Kenneth Williams, Michael Fassbender",8.1,"629,117","Biography,Drama,History",USA,English,"$187,733,202","$20,000,000",134 min
+203,204,0072684,Barry Lyndon,1975,Stanley Kubrick,"Ryan O'Neal, Marisa Berenson, Patrick Magee",8.1,"146,654","Adventure,Drama,History,War",UK,English,"$198,992",,185 min
+204,205,1392190,Mad Max: Fury Road,2015,George Miller,"Tom Hardy, Charlize Theron, Nicholas Hoult",8.1,"863,698","Action,Adventure,Sci-Fi,Thriller",Australia,English,"$375,225,175","$150,000,000",120 min
+205,206,0405159,Million Dollar Baby,2004,Clint Eastwood,"Hilary Swank, Clint Eastwood, Morgan Freeman",8.1,"627,056","Drama,Sport",USA,English,"$216,763,646","$30,000,000",132 min
+206,207,0092005,Stand by Me,1986,Rob Reiner,"Wil Wheaton, River Phoenix, Corey Feldman",8.1,"358,109","Adventure,Drama",USA,English,"$52,287,414","$8,000,000",89 min
+207,208,0074958,Network,1976,Sidney Lumet,"Faye Dunaway, William Holden, Peter Finch",8.1,"142,861",Drama,USA,English,"$23,690,757",,121 min
+208,209,0061512,Cool Hand Luke,1967,Stuart Rosenberg,"Paul Newman, George Kennedy, Strother Martin",8.1,"159,364","Crime,Drama",USA,English,,,127 min
+209,210,0097165,Dead Poets Society,1989,Peter Weir,"Robin Williams, Robert Sean Leonard, Ethan Hawke",8.1,"414,948","Comedy,Drama",USA,English,"$235,860,116","$16,400,000",128 min
+210,211,0052618,Ben-Hur,1959,William Wyler,"Charlton Heston, Jack Hawkins, Stephen Boyd",8.1,"216,181","Adventure,Drama,History",USA,English,"$74,427,638","$15,000,000",212 min
+211,212,1028532,Hachi: A Dog's Tale,2009,Lasse Hallström,"Richard Gere, Joan Allen, Cary-Hiroyuki Tagawa",8.1,"247,961","Drama,Family",UK,English,"$46,749,646",,93 min
+212,213,1201607,Harry Potter and the Deathly Hallows: Part 2,2011,David Yates,"Daniel Radcliffe, Emma Watson, Rupert Grint",8.1,"749,053","Adventure,Drama,Fantasy,Mystery",UK,English,"$1,342,206,619","$125,000,000",130 min
+213,214,0091763,Platoon,1986,Oliver Stone,"Charlie Sheen, Tom Berenger, Willem Dafoe",8.1,"375,494","Drama,War",USA,English,"$138,545,632","$6,000,000",120 min
+214,215,0758758,Into the Wild,2007,Sean Penn,"Emile Hirsch, Vince Vaughn, Catherine Keener",8.1,"564,044","Adventure,Biography,Drama",USA,English,"$56,674,477","$15,000,000",148 min
+215,216,3315342,Logan,2017,James Mangold,"Hugh Jackman, Patrick Stewart, Dafne Keen",8.1,"633,330","Action,Drama,Sci-Fi,Thriller",USA,English,"$619,021,436","$97,000,000",137 min
+216,217,0079470,Monty Python's Life of Brian,1979,Terry Jones,"Graham Chapman, John Cleese, Michael Palin",8.1,"361,805",Comedy,UK,English,"$20,739,243","$4,000,000",94 min
+217,218,1979320,Rush,2013,Ron Howard,"Daniel Brühl, Chris Hemsworth, Olivia Wilde",8.1,"425,827","Action,Biography,Drama,Sport",UK,English,"$96,983,009","$38,000,000",123 min
+218,219,0046268,The Wages of Fear,1953,Henri-Georges Clouzot,"Yves Montand, Charles Vanel, Peter van Eyck",8.1,"53,455","Adventure,Drama,Thriller",France,French,"$1,098",,131 min
+219,220,4016934,The Handmaiden,2016,Chan-wook Park,"Min-hee Kim, Jung-woo Ha, Jin-woong Cho",8.1,"107,207","Drama,Romance,Thriller",South,Korean,"$37,767,206","KRW10,000,000,000",145 min
+220,221,0019254,The Passion of Joan of Arc,1928,Carl Theodor Dreyer (as Carl Th. Dreyer),"Maria Falconetti, Eugene Silvain, André Berley",8.1,"46,391","Biography,Drama,History",France,None,"$21,877",,110 min
+221,222,0053198,The 400 Blows,1959,François Truffaut,"Jean-Pierre Léaud, Albert Rémy, Claire Maurier",8.1,"102,929","Crime,Drama",France,French,"$127,244",,99 min
+222,223,0060107,Andrei Rublev,1966,Andrei Tarkovsky (as Andrey Tarkovskiy),"Anatoliy Solonitsyn, Ivan Lapikov, Nikolay Grinko",8.1,"45,476","Biography,Drama,History",Soviet,Russian,"$145,491","RUR1,000,000",165 min
+223,224,0395169,Hotel Rwanda,2004,Terry George,"Don Cheadle, Sophie Okonedo, Joaquin Phoenix",8.1,"330,755","Biography,Drama,History,War",UK,English,"$33,882,243","$17,500,000",121 min
+224,225,1895587,Spotlight,2015,Tom McCarthy,"Mark Ruffalo, Michael Keaton, Rachel McAdams",8.1,"410,577","Biography,Crime,Drama",USA,English,"$98,690,254","$20,000,000",129 min
+225,226,0245712,Amores Perros,2000,Alejandro G. Iñárritu (as Alejandro González Iñárritu),"Emilio Echevarría, Gael García Bernal, Goya Toledo",8.1,"220,579","Drama,Thriller",Mexico,Spanish,"$20,908,467","$2,000,000",154 min
+226,227,0048021,Rififi,1955,Jules Dassin,"Jean Servais, Carl Möhner, Robert Manuel",8.2,"27,272","Crime,Drama,Thriller",France,French,"$521,342",,118 min
+227,228,0113247,La Haine,1995,Mathieu Kassovitz,"Vincent Cassel, Hubert Koundé, Saïd Taghmaoui",8.1,"146,294","Crime,Drama",France,French,"$301,462",,98 min
+228,229,0087544,Nausicaä of the Valley of the Wind,1984,Hayao Miyazaki,"Sumi Shimamoto, Mahito Tsujimura, Hisako Kyôda",8.1,"146,885","Animation,Adventure,Fantasy,Sci-Fi",Japan,Japanese,"$8,736,506",,117 min
+229,230,0075148,Rocky,1976,John G. Avildsen,"Sylvester Stallone, Talia Shire, Burt Young",8.1,"509,459","Drama,Sport",USA,English,"$117,248,937",,120 min
+230,231,1954470,Gangs of Wasseypur,2012,Anurag Kashyap,"Manoj Bajpayee, Richa Chadha, Nawazuddin Siddiqui",8.2,"79,627","Action,Crime,Drama,Thriller",India,Hindi,"$4,384,642",,321 min
+231,232,0198781,"Monsters, Inc.",2001,"Pete Docter, David Silverman (co-director) | 1 more credit »","Billy Crystal, John Goodman, Mary Gibbs",8.0,"800,663","Animation,Adventure,Comedy,Family,Fantasy",USA,English,"$578,981,070","$115,000,000",92 min
+232,233,0405508,Rang De Basanti,2006,Rakeysh Omprakash Mehra (as Rakesh Omprakash Mehra),"Aamir Khan, Soha Ali Khan, Siddharth",8.2,"109,887","Comedy,Drama",India,Hindi,"$8,846,694",,167 min
+233,234,0032976,Rebecca,1940,Alfred Hitchcock,"Laurence Olivier, Joan Fontaine, George Sanders",8.1,"120,682","Drama,Mystery,Romance,Thriller",USA,English,"$72,275",,130 min
+234,235,0381681,Before Sunset,2004,Richard Linklater,"Ethan Hawke, Julie Delpy, Vernon Dobtcheff",8.1,"230,994","Drama,Romance",USA,English,"$15,936,507","$2,700,000",80 min
+235,236,8613070,Portrait of a Lady on Fire,2019,Céline Sciamma,"Noémie Merlant, Adèle Haenel, Luàna Bajrami",8.1,"53,999","Drama,Romance",France,French,"$9,919,850",,122 min
+236,237,0118694,In the Mood for Love,2000,Kar-Wai Wong,"Tony Chiu-Wai Leung, Maggie Cheung, Ping Lam Siu",8.1,"120,645","Drama,Romance",Hong,Cantonese,"$12,854,953",,98 min
+237,238,0087884,"Paris, Texas",1984,Wim Wenders,"Harry Dean Stanton, Nastassja Kinski, Dean Stockwell",8.1,"87,900",Drama,West,English,"$2,206,121",,145 min
+238,239,0025316,It Happened One Night,1934,Frank Capra,"Clark Gable, Claudette Colbert, Walter Connolly",8.1,"92,127","Comedy,Romance",USA,English,,,105 min
+239,240,4430212,Drishyam,2015,Nishikant Kamat,"Ajay Devgn, Shriya Saran, Tabu",8.2,"67,267","Crime,Drama,Mystery,Thriller",India,Hindi,,,163 min
+240,241,4857264,The Invisible Guest,2016,Oriol Paulo,"Mario Casas, Ana Wagener, José Coronado",8.1,"131,102","Crime,Drama,Mystery,Thriller",Spain,Spanish,"$31,191,910",,106 min
+241,242,1454029,The Help,2011,Tate Taylor,"Emma Stone, Viola Davis, Octavia Spencer",8.0,"421,987",Drama,USA,English,"$216,639,112","$25,000,000",146 min
+242,243,0093779,The Princess Bride,1987,Rob Reiner,"Cary Elwes, Mandy Patinkin, Robin Wright",8.1,"388,224","Adventure,Family,Fantasy,Romance",USA,English,"$30,883,720","$16,000,000",98 min
+243,244,0018773,The Circus,1928,Charles Chaplin (as Charlie Chaplin),"Charles Chaplin, Merna Kennedy, Al Ernest Garcia",8.1,"28,560","Comedy,Romance",USA,None,"$26,916",,72 min
+244,245,0058946,The Battle of Algiers,1966,Gillo Pontecorvo,"Brahim Hadjadj, Jean Martin, Yacef Saadi",8.1,"51,746","Drama,War",Italy,Arabic,"$964,028","$800,000",121 min
+245,246,0088247,The Terminator,1984,James Cameron,"Arnold Schwarzenegger, Linda Hamilton, Michael Biehn",8.0,"789,639","Action,Sci-Fi",UK,English,"$78,680,331","$6,400,000",107 min
+246,247,0103639,Aladdin,1992,"Ron Clements, John Musker","Scott Weinger, Robin Williams, Linda Larkin",8.0,"367,643","Animation,Adventure,Comedy,Family,Fantasy,Musical,Romance",USA,English,"$504,050,219","$28,000,000",90 min
+247,248,2991224,Tangerines,2013,Zaza Urushadze,"Lembit Ulfsak, Elmo Nüganen, Giorgi Nakashidze",8.2,"38,292","Drama,War",Estonia,Estonian,"$1,024,132","EUR650,000",87 min
+248,249,5323662,A Silent Voice: The Movie,2016,Naoko Yamada,"Miyu Irino, Saori Hayami, Aoi Yûki",8.1,"42,824","Animation,Drama,Family,Romance",Japan,Japanese,"$30,490,447",,130 min
+249,250,0111495,Three Colors: Red,1994,Krzysztof Kieslowski,"Irène Jacob, Jean-Louis Trintignant, Frédérique Feder",8.1,"88,737","Drama,Mystery,Romance",Switzerland,French,"$3,581,969",,99 min
