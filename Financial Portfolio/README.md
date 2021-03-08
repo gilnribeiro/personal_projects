@@ -7,4 +7,5 @@
 - Subsquently after creating a jupyter notebook dashboard and using dash for visualizations in the browser I decided to explore Google Data Studio to perform visualizations and create a better looking dashboard
 - For that part of the project I connected the data generation with the updates of the portofio composition and just the time that has passed between the last request and with that script I updated google excel spreadsheet in my google drive which are then being used to plot a dashboard using Google Data Studio
 
-- For a quick overview of the project please check the Html file
+- For a quick overview of the project please check the Html file (Financial Overview Dashboard)
+- https://gilnribeiro.github.io/
