@@ -8,6 +8,3 @@
 - For that part of the project I connected the data generation with the updates of the portofio composition and just the time that has passed between the last request and with that script I updated google excel spreadsheet in my google drive which are then being used to plot a dashboard using Google Data Studio
 
 - For a quick overview of the project please check the Html file
-
-<a href="Portfolio Overview.html">Portfolio Overview</a>
-
