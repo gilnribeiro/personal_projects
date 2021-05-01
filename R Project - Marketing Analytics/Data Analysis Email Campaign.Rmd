@@ -1,0 +1,358 @@
+# Marketing Analytics Assignment 1
+
+### Imports
+
+```{r    }
+    library(data.table) # library to use data.table objects
+    library(stargazer)
+    library(ggplot2)
+```
+
+## Load data into R:
+  
+```{r   }
+dt.em <- fread("20210412-email-campaign.csv") 
+```
+
+### Structure of the Data
+
+Looking at the Structure of the Data
+
+```{r   }
+    str(dt.em) 
+```
+
+### Descriptive Statistics
+
+#### 1. Summary of the Data - Stargazer & Summary
+
+##### Numerical and Binary Variables:
+
+- Last Purchase mean is around June (month 6), however there's a large standard deviation and the distribution may not be normal.
+- Historical spending (last year) has a very large standard deviation, we can infer that its distribution must be heavily skewed to with a long right tail given its large maximum value (3,345) and having 75% of all variables up to only 325.
+- Electronics and books share approximatly the same mean, with both having more than 50% of customers buying the respective product. (we can infer this given it is a binomial variable and the mean will be the sum of all entries divided by all entries)
+- new_customer is apparently perfectly balanced with an almost equal number of regular/old customers and new customers.
+
+```{r   }
+    cat("\n Numerical Variables Summary Table\n")
+    dt.em.predictors = dt.em[, list(last_purchase, hist_spend, books, electronics, pop_density, new_customer, device)]
+    stargazer(dt.em.predictors, type="text")
+    cat("\n Categorical Variables Summary Table\n\n")
+    summary(dt.em.predictors[, list(pop_density, device)])
+    
+```
+
+##### Categorical Variables:
+
+```{r    }
+    # check device mode
+    qplot(factor(device), fill=factor(device), data=dt.em, geom="bar") +
+     labs(title = "Device Mode is Laptop and Mobile",
+              #subtitle = "Plot of length by dose",
+              #caption = "Data source: ToothGrowth",
+              x = "Device", y = "", fill="Device")
+    qplot(factor(pop_density), fill=factor(pop_density), data=dt.em, geom="bar") +
+      labs(title = "Population Density Mode is Sub-Urban",
+              #subtitle = "Plot of length by dose",
+              #caption = "Data source: ToothGrowth",
+              x = "Population Density", y = "", fill="Population Density")
+``` 
+
+## Lets Analyse the "Predictor" features
+
+last_purchase   | predictor  | numeric     | Months since last purchase.
+hist_spend      | predictor  | numeric     | Actual dollar value spent in the past year.
+books           | predictor  | binomial    | 1/0 indicator, 1 = customer purchased from the books section in the past year.
+electronics     | predictor  | binomial    | 1/0 indicator, 1 = customer purchased from the electronics section in the past year.
+pop_density     | predictor  | multinomial | Use location classified as Urban, Suburban, or Rural.
+new_customer    | predictor  | binomial    | 1/0 indicator, 1 = New customer in the past twelve months.
+device          | predictor  | multinomial | Describes the devices the customer purchased from in the past year.
+
+
+## New Customer
+- We want to evaluate the following questions:
+
+1. When are customers (old and new) making their last purchases?
+
+- Last purchases seem to have an increase in the last month of the year (here the number 1 given last_purchase is - months since last purchase - which coincides with Christmas season, where regular/old and new customers make the majority of their last purchases with new customers being the largest share of buyers for this month.
+- This lead is sustained over regular custmers all the way back to September. Then regular customers become the largest share of last purchases as there is fewer and fewer poeple making their last purchases in the summer months of August through to May.
+- In April and March we observe again a large number of last purchases from both regular/old customers, now with regular customers being the largest share of the respective months. Then in February and January we verify the lowest number of last purchases in the year.
+- We should investigate if there is any external reason to prompt the increase in last purchases that early in the year (March and April). Perhaps Easter holidays can explain some of that increase.
+
+```{r   }
+    ggplot(data=dt.em, aes(factor(last_purchase), fill=factor(new_customer))) +
+    geom_bar(position="dodge") + labs(title = "Months since last purchase per Customer",
+              #subtitle = "Plot of length by dose",
+              #caption = "Data source: ToothGrowth",
+              x = "(Months since) Last Purchase", y = "", fill="New Customer")
+```
+
+2. Are new customers spending more than regular costumers?
+
+- They are, by plotting the historical spending (last year's spending) we have that new customers spend much more than regular/old customers with a longer right tail of the distribution.
+
+```{r    }
+    ggplot(data=dt.em, aes(hist_spend, fill = factor(new_customer))) + geom_histogram(alpha = 1, position = "identity") + 
+      labs(title = "Historical Spending Histogram per New Customer",
+              #subtitle = "Plot of length by dose",
+              #caption = "Data source: ToothGrowth",
+              x = "(Last year's) Historical Spending", y = "", fill="New Customer")
+    ggplot(data=dt.em, aes(hist_spend)) + geom_histogram(alpha = 1, position = "identity") + facet_wrap(~ new_customer) +
+      labs(title = "Historical Spending Histogram per New Customer",
+              #subtitle = "Plot of length by dose",
+              #caption = "Data source: ToothGrowth",
+              x = "(Last year's) Historical Spending", y = "", fill="New Customer")
+```
+
+This is what we call a "Power Law" distribution, so we can apply a log to see something closer to a normal distribution.
+
+- What we can see is that a very large number of both regular/old and new customers spend a small amount, however, new customers spend more than regular ones. It even appears to exist a barrier of spending that is shared among a significant share of regular customers, around the 500 to 600$. 
+- This can be a factor when deciding which strategy to pursue for example: Should we work on retaining regular/old customers or focus on aquiring new customers?
+
+
+```{r    }
+     ggplot(data=dt.em, aes(log(hist_spend), fill = factor(new_customer))) + geom_histogram(alpha = 1, position = "identity") +
+       labs(title = "Log of Historical Spending Histogram per New Customer",
+              #subtitle = "Plot of length by dose",
+              #caption = "Data source: ToothGrowth",
+              x = "Log of (Last year's) Historical Spending", y = "", fill="New Customer")
+     ggplot(data=dt.em, aes(log(hist_spend)))+ geom_histogram(alpha = 1, position = "identity") + facet_wrap(~ new_customer) +
+       labs(title = "Log of Historical Spending Histogram per New Customer",
+              #subtitle = "Plot of length by dose",
+              #caption = "Data source: ToothGrowth",
+              x = "Log of (Last year's) Historical Spending", y = "", fill="New Customer")
+```
+
+3. What is the relation betwenn new customers and books/electronics/device?
+
+```{r   }
+    qplot(factor(new_customer), hist_spend, data=dt.em, fill=factor(new_customer), geom="boxplot") + facet_grid(~ books) +
+      labs(title = "Books",
+              #subtitle = "Plot of length by dose",
+              #caption = "Data source: ToothGrowth",
+              x = "New Customer", y = "Historical Spending", fill="New Customer")
+    qplot(factor(new_customer), hist_spend, data=dt.em, fill=factor(new_customer), geom="boxplot") + facet_grid(~ electronics) + 
+      labs(title = "Electronics",
+              #subtitle = "Plot of length by dose",
+              #caption = "Data source: ToothGrowth",
+              x = "New Customer", y = "Historical Spending", fill="New Customer") 
+    ggplot(dt.em, aes(x=factor(new_customer), y=hist_spend, fill=factor(new_customer))) + geom_boxplot() + facet_grid(~ books + electronics) +
+      labs(title = "Books & Electronics",
+              #subtitle = "Plot of length by dose",
+              #caption = "Data source: ToothGrowth",
+              x = "New Customer", y = "Historical Spending", fill="New Customer")
+```
+There seems to be a difference between means of new_customers per books and per electronics.
+
+New customer seems to have a significant amount of outliers in spending, with the largest one being someone that bought both books and electronics last year. This tells us that for customers that buy either only books or only electronics last year, their distribution will have longer tails than that of a regular customer. 
+
+There also seems to be a difference in means between new_customer and both books and electronics.
+
+```{r    }
+    t.test(dt.em$new_customer ~ dt.em$books)
+    t.test(dt.em$new_customer ~ dt.em$electronics)
+```
+
+By performing the t-test we have that there seems to be a statistical significant differece between means.
+
+```{r    }
+    lm.books.eletronics = lm(new_customer ~ books + electronics, data=dt.em)
+    summary(lm.books.eletronics)
+```
+By performing the F-test we can also see that books and electronics are jointly statistically significant
+
+## Multilinear Regression (y = new_customer)
+
+```{r    }
+    mfit = lm(new_customer ~ last_purchase + hist_spend + books + electronics + pop_density + device,
+              data=dt.em)
+    summary(mfit)
+```
+
+By doing a multilinear regression to explain new_costumers we find that, ceteris paribus, hist_spend (last year expenditure) and device (laptop and mobile) are statistically significant at a 99.9% Confidence Interval. Interstingly, the time since last purchase is not statistically significant when it comes to explain new customers.
+
+- We can also see that electronics seem to have a stronger statistical significance than books to explain older customers (given the negative sign of the coefficient), this could perhaps be explained by new customers having a higher trust on buying books than electronics at a new store.
+
+## All Variables
+ggpairs
+- Inspect relations between all combinations of variable pairs
+
+```{r   }
+    library(GGally)
+    ggpairs(dt.em[, list(last_purchase, hist_spend, books, electronics, pop_density, device)]) 
+```
+
+- The correlation between historical spending (last year's spending) and last purchase is statistically significant at -0.246. Therefore, there's a weak negative correlation implying that we expect to have higher spending with customers that made their last purchase at the end of the year, which seems intuitive given that the end of the year has Christmas season a well know and planned expense for many customers. The weak correlation comes from the spike in March and April in the middle of the year, in what would otherwise be a downward trend throughout the year. It is important to reinforce the need to investigate what is causing such a significant increase in last purchases this early in the year, as the ideal would be to have a strong negative correlation between historical spending and time since last purchase as it would imply larger revenue for the company.
+
+- Books and electronics slightly negative correlations with last_purchase suggest that there may be little influence in the timming of the last purchase and this being books or electronics, actually with this data it is necessarily one or the other, or both.
+
+- Books and eletronics slightly positive correlation with historical spending (last year's spending) which likely comes from having 2 out of 3 possible states of purchase. These are, (Books, No Electronics) , (No Books, Electronics) or (Books, Electronics). And as we can see in the Box plot for Books and Electronincs, there is a statistically significant difference in means, between old and new customers with the highest historical spending mean of all combinations coming from the purchase of both books and electronics.
+
+- Books and electronics have a strong negative correlation, which is to be expected given that, as we can see below, only a small share of customers bough both products during the year.
+
+```{r    }
+    qplot(factor(new_customer), fill=factor(new_customer), data=dt.em, geom="bar")+ facet_grid(~ books + electronics) +
+  labs(title = "The majority of customers buy either Books or Electronics",
+              #subtitle = "Plot of length by dose",
+              #caption = "Data source: ToothGrowth",
+              x = "New Customer", y = "", fill="New Customer")
+```
+
+###2 RANDOMIZATION CHECKS
+####2.1 Creating a summary statistics table
+
+```{r}
+stargazer(dt.em , type = "text")
+```
+
+###2.2 Checking if both groups are comparable
+On this first chunk we compare if the values of the variables from the group that receive the email campaign featuring electronics are different from the one that did not receive any email (control group)
+If the randomization was properly done the p_value of each test should be greater than 0.1 so then we can reject the null hypothesis.
+For the last 3 variables (visit_after, purchased_after , spend_after) the p-value is expected to be close to 0, since these are the output variables and it is expected that the variables behave differently across the two groups, otherwise the campaign wouldn't have any result (e.g. a group of customers that receive an email campaign featuring electronics will probably spend more dollars than one that did not receive any email campaign).
+All the tests yield a p-value greater than 0.1 (except, as expected, the last 3), therefore we can say that this treatment group (the ones who received an email campaign featuring electronics) was properly randomly assigned and both, treatment and control groups are comparable.
+
+```{r}
+dt.em[treatment != "Books Email", t.test(last_purchase ~ treatment)]
+dt.em[treatment != "Books Email", t.test(hist_spend ~ treatment)]
+dt.em[treatment != "Books Email", t.test(books ~ treatment)]
+dt.em[treatment != "Books Email", t.test(electronics ~ treatment)]
+dt.em[treatment != "Books Email", t.test(new_customer ~ treatment)]
+
+dt.em[treatment != "Books Email", t.test(visit_after ~ treatment)]
+dt.em[treatment != "Books Email", t.test(purchased_after ~ treatment)]
+dt.em[treatment != "Books Email", t.test(spend_after ~ treatment)]
+```
+
+On this second chunk we compare if the values of the variables from the group that receive the email campaign featuring books are different from the one that did not receive any email (control group)
+If the randomization was properly done the p_value of each test should be greater than 0.1 so then we can reject the null hypothesis.
+For the last 3 variables (visit_after, purchased_after , spend_after) the p-value is expected to be close to 0, since these are the output variables and it is expected that the variables behave differently across the two groups, otherwise the campaign wouldn't have any result (e.g. a group of customers that receive an email campaign featuring electronics will probably spend more dollars than one that did not receive any email campaign).
+Again, all the tests yield a p-value greater than 0.1 (except, as expected, the last 3), therefore we can say that this treatment group (the ones who received an email campaign featuring books) was properly randomly assigned and both, treatment and control groups are comparable.
+
+```{r}
+dt.em[treatment != "Electronics Email", t.test(last_purchase ~ treatment)]
+dt.em[treatment != "Electronics Email", t.test(hist_spend ~ treatment)]
+dt.em[treatment != "Electronics Email", t.test(books ~ treatment)]
+dt.em[treatment != "Electronics Email", t.test(electronics ~ treatment)]
+dt.em[treatment != "Electronics Email", t.test(new_customer ~ treatment)]
+
+dt.em[treatment != "Electronics Email", t.test(visit_after ~ treatment)]
+dt.em[treatment != "Electronics Email", t.test(purchased_after ~ treatment)]
+dt.em[treatment != "Electronics Email", t.test(spend_after ~ treatment)]
+```
+
+We also need to make sure that both treatment groups are comparable between them, so the results of the experimentation will be valid.
+For the last 3 variables (visit_after, purchased_after , spend_after) the p-value is expected to be close to 0, since these are the output variables and it is expected that the variables behave differently across the two groups, otherwise the campaign wouldn't have any result (e.g. a group of customers that receive an email campaign featuring electronics will probably spend more dollars than one that did not receive any email campaign).
+Again, all the tests yield a p-value greater than 0.1 (except, as expected, the last 3), therefore we can say that both treatments groups are comparable.
+
+```{r}
+dt.em[treatment != "No Email", t.test(last_purchase ~ treatment)]
+dt.em[treatment != "No Email", t.test(hist_spend ~ treatment)]
+dt.em[treatment != "No Email", t.test(books ~ treatment)]
+dt.em[treatment != "No Email", t.test(electronics ~ treatment)]
+dt.em[treatment != "No Email", t.test(new_customer ~ treatment)]
+
+dt.em[treatment != "No Email", t.test(visit_after ~ treatment)]
+dt.em[treatment != "No Email", t.test(purchased_after ~ treatment)]
+dt.em[treatment != "No Email", t.test(spend_after ~ treatment)]
+```
+
+
+## Analysis of the Experiment Design and Results
+
+1. Which campaign performed the best overall, the Books version, or the Electronics version?
+
+```{r    }
+    by.treatment = dt.em[, list(Total_Visit_after=sum(visit_after),
+                                Total_Purchased_after=sum(purchased_after),
+                                Total_Spend_after=sum(spend_after)), by="treatment"]
+
+    ggplot(data=by.treatment, aes(x=factor(treatment), y=Total_Visit_after, fill=factor(treatment))) + 
+      geom_bar(stat="identity", position=position_dodge())+
+      geom_text(aes(label=Total_Visit_after), vjust=1.6, color="white",
+                position = position_dodge(0.9), size=3.5) + ggtitle("Total Number of Visitors 4 weeks after Treatment") +
+      labs(title = "Total Visitors 4 weeks after Treatment",
+              #subtitle = "Plot of length by dose",
+              #caption = "Data source: ToothGrowth",
+              x = "Treatment", y = "Total Visits After", fill="Treatment")
+    
+    ggplot(data=by.treatment, aes(x=factor(treatment), y=Total_Purchased_after, fill=factor(treatment))) + 
+      geom_bar(stat="identity", position=position_dodge())+
+      geom_text(aes(label=Total_Purchased_after), vjust=1.6, color="white",
+                position = position_dodge(0.9), size=3.5) + ggtitle("Total Number of Purchases 4 weeks after Treatment") +
+      labs(title = "Total Purchases 4 weeks after Treatment",
+              #subtitle = "Plot of length by dose",
+              #caption = "Data source: ToothGrowth",
+              x = "Treatment", y = "Total Purchased After", fill="Treatment")
+
+    ggplot(data=by.treatment, aes(x=factor(treatment), y=Total_Spend_after, fill=factor(treatment))) + 
+      geom_bar(stat="identity", position=position_dodge())+
+      geom_text(aes(label=Total_Spend_after), vjust=1.6, color="white",
+                position = position_dodge(0.9), size=3.5) + ggtitle("Total Spending 4 weeks after Treatment") +
+      labs(title = "Total Spending 4 weeks after Treatment",
+              #subtitle = "Plot of length by dose",
+              #caption = "Data source: ToothGrowth",
+              x = "Treatment", y = "Total Spend After", fill="Treatment")
+```
+
+2. How much incremental sales per customer did the Books version of the campaign drive? How much incremental sales per customer did the Electronics version of the campaign drive?
+
+```{r    }
+    # No email
+    n_customer_no = length(dt.em[treatment=="No Email", new_customer])
+    total_no_spend = dt.em[treatment=="No Email", sum(spend_after)]
+    no_spend_per_customer = total_no_spend/n_customer_no
+    percent_no = sum(dt.em[treatment == "No Email" , sum(spend_after)])/sum(dt.em$spend_after)*100
+    
+    n_customer_b = length(dt.em[treatment=="Books Email", new_customer])
+    total_books_spend = dt.em[treatment=="Books Email", sum(spend_after)]
+    books_spend_per_customer = total_books_spend/n_customer_b
+    percent_books = sum(dt.em[treatment == "Books Email" , sum(spend_after)])/sum(dt.em$spend_after)*100
+    cat("\nThe books version of the campaign yielded an incremental ", books_spend_per_customer-no_spend_per_customer, "€ per customer. With ", n_customer_b, " customers spending ", total_books_spend, "€. Which equates to ", percent_books,"% of the total sales 4 weeks after the experiment\n")
+    
+    n_customer_el = length(dt.em[treatment=="Electronics Email", new_customer])
+    total_electronics_spend = dt.em[treatment=="Electronics Email", sum(spend_after)]
+    electronics_spend_per_customer = total_electronics_spend/n_customer_el
+    percent_electronics = sum(dt.em[treatment == "Electronics Email" , sum(spend_after)])/sum(dt.em$spend_after)*100
+    cat("\nThe Electronics version of the campaign yielded an incremental ", electronics_spend_per_customer-no_spend_per_customer, "€ per customer. With ", n_customer_el, " customers spending ", total_electronics_spend, "€. Which equates to ", percent_electronics,"% of the total sales 4 weeks after the experiment")
+    
+    
+    
+    treatment = c("Books Email","Electronics Email", "No Email")
+    values = c(books_spend_per_customer-no_spend_per_customer, electronics_spend_per_customer-no_spend_per_customer, no_spend_per_customer-no_spend_per_customer)
+    data = data.frame(treatment, values)
+    ggplot(data=data, aes(x=factor(treatment), y=values, fill=factor(treatment))) + 
+      geom_bar(stat="identity", position=position_dodge())+
+      geom_text(aes(label=values), vjust=1.6, color="white",
+                position = position_dodge(0.9), size=3.5) + ggtitle("Total Spending 4 weeks after Treatment") + 
+      labs(title = "Incremental Spending per Treatment per customer, No Email as baseline",
+              #subtitle = "Plot of length by dose",
+              #caption = "Data source: ToothGrowth",
+              x = "Treatment", y = "Spend After per Customer", fill="Treatment")
+```
+
+3. Is cross-selling a good strategy for Books&Tech? In other words, which audience would you target the Books version to, and the Electronics version to, given the obtained results? Justify your recommendation.
+
+```{r    }
+    new.data = dt.em[, list(Total_Spend_after=sum(spend_after)), by=c("treatment","books","electronics","device","pop_density","new_customer")]
+    labels_x = c("Books\nEmail"," Elect.\nEmail","No\nEmail")
+    ggplot(data=new.data, aes(x=factor(device), y=Total_Spend_after, fill=factor(treatment))) + #scale_x_discrete(labels=labels_x) + 
+      geom_bar(stat="identity", position=position_dodge()) + facet_grid(~ books + electronics) + 
+      labs(title = "Total Spending 4 weeks after Treatment",
+              #subtitle = "Plot of length by dose",
+              #caption = "Data source: ToothGrowth",
+              x = "Treatment", y = "Total Spend After", fill="Treatment")
+    
+    ggplot(data=new.data, aes(x=factor(pop_density), y=Total_Spend_after, fill=factor(treatment))) + #scale_x_discrete(labels=labels_x) + 
+      geom_bar(stat="identity", position=position_dodge()) + facet_grid(~ books + electronics) + 
+      labs(title = "Total Spending 4 weeks after Treatment",
+              #subtitle = "Plot of length by dose",
+              #caption = "Data source: ToothGrowth",
+              x = "Treatment", y = "Total Spend After", fill="Treatment")
+    
+    ggplot(data=new.data, aes(x=factor(new_customer), y=Total_Spend_after, fill=factor(treatment))) + #scale_x_discrete(labels=labels_x) + 
+      geom_bar(stat="identity", position=position_dodge()) + facet_grid(~ books + electronics) + 
+      labs(title = "Total Spending 4 weeks after Treatment",
+              #subtitle = "Plot of length by dose",
+              #caption = "Data source: ToothGrowth",
+              x = "Treatment", y = "Total Spend After", fill="Treatment")
+```
